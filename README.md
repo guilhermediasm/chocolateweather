@@ -17,8 +17,8 @@
 ## 📱 Desing do projeto
 
 <p align="center">
-  <img alt="Main" src=".github/home.svg" width="30%">
-   <img alt="NextSeven" src=".github/weather.svg" width="30%">
+  <img alt="Main" src=".github/main.png" width="30%">
+   <img alt="NextSeven" src=".github/nextSeven.png" width="30%">
 </p>
 
 
