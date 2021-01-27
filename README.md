@@ -45,10 +45,15 @@ Entre as tecnologias utilizadas, destaca-se:
 $ git clone https://github.com/guilhermediasm/chocolateweather.git
 
 # Go into the repository
-$ cd easyweather
+$ cd chocolateweather
 
 # Install dependencies
 $ yarn
+
+# Install pods
+$ cd .\ios
+$ pod install
+$ cd ..
 
 # Start
 $ yarn start
