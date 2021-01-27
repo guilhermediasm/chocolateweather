@@ -3,11 +3,7 @@
 </h1>
  <p align="center">Previsão do tempo para sua localização.</p>
 <p align="center">
-  <a href="https://github.com/eduardoffelipe/status-code/commits/master">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/eduardoffelipe/easyweather">
-  </a>
-
-  <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
+  <a href="https://github.com/guilhermediasm/chocolateweather/commits/master" />
 </p>
 
 <br>
