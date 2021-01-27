@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="EasyWeather" title="#EasyWeather" width="250px" />
+    <img alt="EasyWeather" title="#EasyWeather" src=".github/logo.png" width="250px" />
 </h1>
  <p align="center">Previsão do tempo para sua localização.</p>
 <p align="center">
