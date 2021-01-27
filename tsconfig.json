@@ -1,0 +1,50 @@
+
+{
+  "compilerOptions": {
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    /* Basic Options */
+    "target": "esnext",                       /* Specify ECMAScript target version: 'ES3' (default), 'ES5', 'ES2015', 'ES2016', 'ES2017','ES2018' or 'ESNEXT'. */
+    "isolatedModules": true,
+    "module": "commonjs",                     /* Specify module code generation: 'none', 'commonjs', 'amd', 'system', 'umd', 'es2015', or 'ESNext'. */
+    "lib": ["es6"],                           /* Specify library files to be included in the compilation. */
+    "allowJs": true,                          /* Allow javascript files to be compiled. */
+    "jsx": "react-native",                    /* Specify JSX code generation: 'preserve', 'react-native', or 'react'. */
+    "noEmit": true,
+    "skipLibCheck": true,                      /* Do not emit outputs. */              /* Transpile each file as a separate module (similar to 'ts.transpileModule'). */
+    /* Strict Type-Checking Options */
+    "strict": true,
+    "noImplicitAny": true,
+    /* Module Resolution Options */
+    "resolveJsonModule": true,
+    "moduleResolution": "node",
+    "baseUrl": ".",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "paths": {
+      "~/*" : ["src/*"],
+      "~/api": ["src/api"],
+      "~/assets": ["src/assets"],
+      "~/components": ["src/components"],
+      "~/pages": ["src/pages"],
+      "~/stores": ["src/stores"],
+      "~/theme": ["src/theme"],
+      "~/navigation": ["src/navigation"],
+      "~/utils": ["src/utils"],
+      "~/utils/types": ["src/utils/types"],
+      "~/helpers":["src/helpers"]
+    }
+  },
+
+  "include": ["src/**/*"],
+  "types": ["src/utils/types/*"],
+  "allowSyntheticDefaultImports": true,
+  "esModuleInterop": true      ,
+  "exclude": [
+    "node_modules",
+    "e2e",
+    "babel.config.js",
+    "metro.config.js",
+    "_tests_/" // exclude test files
+  ]
+}
